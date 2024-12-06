@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="icon" type="image" href="logo.webp" />
+
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link
+			href="https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap"
+			rel="stylesheet"
+		/>
+		<title>Password Generoter</title>
+		<link rel="stylesheet" href="style.css" />
+	</head>
+	<body>
+		<div class="main">
+			<div class="container">
+				<img src="logo.webp" />
+				<h2 id="heading">
+					Generate a <br /><span style="color: #10b981">random password </span>
+				</h2>
+				<p><i>"Never use an insecure password again."</i></p>
+				<button id="generate-Btn" onclick="getRandomCharacters()">
+					Generate Passwords 🔑
+				</button>
+				<hr id="line1" />
+				<div class="input-div">
+					<p class="input" id="inputOne"></p>
+					<p class="input" id="inputTwo"></p>
+				</div>
+			</div>
+		</div>
+		<script src="main.js"></script>
+	</body>
+</html>
